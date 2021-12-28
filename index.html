@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <style>
+            @media(max-width:414px){
+            body{
+                background-image: linear-gradient(to right,WHITE);
+                
+            }
+            .header{
+                position: absolute;
+                top:0%;
+                left:0%;
+                width:100%;
+                height:10%;
+                background-color:#4A6572 ;
+                border-bottom: 3px solid black;
+            }
+            .header .fas{
+                position: relative;
+                left:5%;
+                bottom:5%;
+                color:#f9aa33;
+            }
+            .result{
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bold;;
+                font-size: 30px;
+                position: relative;
+                text-align: center;
+                top:30%;
+                color:#f9aa33;
+            }
+
+            .boxr{
+                background-color: #f9aa33;
+                width:85%;
+                position: absolute;
+                top:55%;
+                left:7.5%;
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                text-align: left;
+                line-height: 1.5;
+                border:3px solid black;
+                overflow: auto;
+                height:10%;
+                border-radius: 10px;
+            }
+            li{
+                list-style: none;
+            }
+            .img1{
+                position:absolute;
+                top:15%;
+                left:20%;
+                border:3px solid black;
+                width:60%;
+                height:auto;
+                
+
+            }
+            .boxs{
+                position: absolute;
+                top:70%;
+                left:7.5%;
+                width:85%;
+                height:10%;
+                background-color: #f9aa33;
+                border:3px solid black;
+                font-size:15px;
+                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+                ;
+                line-height: 1.7;
+                overflow: auto;
+                border-radius: 10px;
+            }
+            .nextp{
+                position:fixed;
+                bottom:13%;
+                right:12%;
+                
+            }
+            .nextp .fas{
+                color:#f9aa33;
+                
+            }
+            .footer{
+                position:fixed;
+                bottom:0%;
+                left:0%;
+                width:100%;
+                height:10%;
+                background-color:#4A6572;
+                border-top: 3px solid black;
+            }
+            .moto{
+                position: absolute;
+                color:#f9aa33;
+                bottom: 40%;
+                right:5%;
+                font-family:'Courier New', Courier, monospace;
+            }
+
+        }
+
+        </style>
+        
+        <title>BMI RESULT</title>
+        <meta charset="8utf">
+        <script src="https://kit.fontawesome.com/7b0b641d05.js" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class = "header">
+            <div class ='result'><c>YOUR BMI RESULT:</c></div>
+ 
+            <a href="Firstpagecont.html"style="color:black;text-decoration:none;">
+                <i class="fas fa-caret-left fa-2x"></i> </a>
+        </div>
+        <div class='img1'>
+            <img src="https://raw.githubusercontent.com/willamjonathan/hello-github-actions/main/bmi%20table.jpg" width="100%", height="100%">
+        </div>
+
+        <div class ="boxr">
+            <p style="position:relative; left:5%; font-size: 30px;line-height: 1;"><b>RESULT</b></p>
+            <p style="position:relative; left:3%;"><b>BMI FORMULA</b> = mass(kg)/square of height(m)</p>
+            <p style="position:relative; left:3%;"> = 50 kg/(1.75*1.75)m</p>
+            <p style="position:relative; left:3%;"> = 16.3</p>
+            <ul> 
+                <li> You are categorized as an <b>underweight person</b> as your BMI stands less than 18.5</li>
+                <li> By being underweight, it can increase risk of several serious diseases like:</li>
+                <li> Malnutrition, oesteoporosis, etc.</li>
+            </ul>
+        </div>
+
+        <div class ="boxs">
+            <p style="position:relative; left:5%; font-size: 30px;line-height: 1;"><b>SUGGESTION</b></p>
+            <ul>
+                <li>Our suggestion is for you to take:</li>
+                <li><b>Let's inc program</b></li>
+                <li>This program is made for people who are underweight to increase their weight.</li>
+            </ul>
+        </div>
+        <div class ="nextp">
+            <b><a href = "thirdpagecont.html"style="color:black;text-decoration:none;"><i class="fas fa-caret-right fa-2x"></i></a></b>
+        </div>
+        <div class ="footer">
+            
+            
+            <div class ="moto"><b>YOUR HEALTHY SOLUTION</b></div>
+        </div>
+        
+        
+
+    </body>
+
+</html>
