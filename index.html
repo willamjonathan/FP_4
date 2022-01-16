@@ -7,6 +7,7 @@
                 background-image: linear-gradient(to right,WHITE);
                 
             }
+                /* upper part of the page or header */
             .header{
                 position: absolute;
                 top:0%;
@@ -16,12 +17,14 @@
                 background-color:#4A6572 ;
                 border-bottom: 3px solid black;
             }
+                /* back page arrow (redirect you to the page before ) */
             .header .fas{
                 position: relative;
                 left:5%;
                 bottom:5%;
                 color:#f9aa33;
             }
+                /* title of the page styling */
             .result{
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 font-weight: bold;;
@@ -31,7 +34,7 @@
                 top:30%;
                 color:#f9aa33;
             }
-
+                /* result box styling */
             .boxr{
                 background-color: #f9aa33;
                 width:85%;
@@ -49,7 +52,7 @@
                 border-radius: 10px;
             }
             li{
-                list-style: none;
+                list-style: none; /* removing all dots */
             }
             .img1{
                 position:absolute;
@@ -61,6 +64,7 @@
                 
 
             }
+                /* the second box or suggestion box */
             .boxs{
                 position: absolute;
                 top:70%;
@@ -77,6 +81,7 @@
                 overflow: auto;
                 border-radius: 10px;
             }
+                /* forward arrow which will redirect you to the next page */
             .nextp{
                 position:fixed;
                 bottom:13%;
@@ -87,6 +92,7 @@
                 color:#f9aa33;
                 
             }
+                /* lower part of the page or footer */
             .footer{
                 position:fixed;
                 bottom:0%;
@@ -121,11 +127,11 @@
             <a href="https://willamjonathan.github.io/FP_3/"style="color:black;text-decoration:none;">
                 <i class="fas fa-caret-left fa-2x"></i> </a>
         </div>
-        <div class='img1'>
+        <div class='img1'> <!--- the table image which shows you bmi table --->
             <img src="https://raw.githubusercontent.com/willamjonathan/hello-github-actions/main/bmi%20table.jpg" width="100%", height="100%">
         </div>
 
-        <div class ="boxr">
+        <div class ="boxr"><!--- the result box --->
             <p style="position:relative; left:5%; font-size: 30px;line-height: 1;"><b>RESULT</b></p>
             <p style="position:relative; left:3%;"><b>BMI FORMULA</b> = mass(kg)/square of height(m square)</p>
             <p style="position:relative; left:3%;"> = 50 kg/(1.75*1.75)m</p>
@@ -137,7 +143,7 @@
             </ul>
         </div>
 
-        <div class ="boxs">
+        <div class ="boxs"> <!---the suggestion box or second box --->
             <p style="position:relative; left:5%; font-size: 30px;line-height: 1;"><b>SUGGESTION</b></p>
             <ul>
                 <li>Our suggestion is for you to take:</li>
@@ -145,7 +151,7 @@
                 <li>This program is made for people who are underweight to increase their weight.</li>
             </ul>
         </div>
-        <div class ="nextp">
+        <div class ="nextp"><!--- next page or forward arrow --->
             <b><a href = "https://willamjonathan.github.io/FP_5/"style="color:black;text-decoration:none;"><i class="fas fa-caret-right fa-2x"></i></a></b>
         </div>
         <div class ="footer">
